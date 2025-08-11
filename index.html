@@ -1,34 +1,52 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Login - GranCole</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login GranCole Pro</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="container">
-    <div class="left-panel">
-      <img src="salon-de-clase.jpg" alt="Imagen educativa" class="background-image">
-    </div>
-    <div class="right-panel">
-      <div class="form-box">
-        <img src="logo-colegio.png" alt="Logo GranCole" class="logo">
-        <h1>Bienvenido a GranCole</h1>
-        <p class="subtitle">Inicia sesión para continuar</p>
-        <p class="description">Ingresa tus credenciales para acceder al sistema</p>
-        <form>
-          <input type="text" placeholder="Usuario" required>
-          <input type="password" placeholder="Contraseña" required>
-          <button type="submit">Iniciar Sesión</button>
-        </form>
-        <div class="links">
-          <a href="#">¿Olvidaste tu contraseña?</a>
-          <a href="#">¿Tienes dudas? Contacta al administrador</a>
+    <div class="container">
+        <!-- Sección izquierda dinámica -->
+        <div class="left-section">
+            <div class="info">
+                <h2><span class="logo">GranCole Pro</span><br>Sistema de Gestión Educativa</h2>
+                <h3>Gestiona tu institución educativa de manera inteligente</h3>
+                <p>Plataforma integral para administrar estudiantes, profesores, calificaciones, asistencia y mucho más en un solo lugar.</p>
+                <ul>
+                    <li>✔ Gestión completa de estudiantes y profesores</li>
+                    <li>✔ Sistema de calificaciones y boletines</li>
+                    <li>✔ Control de asistencia en tiempo real</li>
+                    <li>✔ Comunicación integrada y foro</li>
+                </ul>
+                <div class="stats">
+                    <div><strong>1,234+</strong><br>Estudiantes</div>
+                    <div><strong>45+</strong><br>Cursos</div>
+                    <div><strong>98%</strong><br>Certificaciones</div>
+                </div>
+            </div>
         </div>
-        <footer>© 2025 GranCole Pro. Todos los derechos reservados. Diseñado por Agencia Cristal.</footer>
-      </div>
+
+        <!-- Sección derecha formulario -->
+        <div class="right-section">
+            <div class="login-box">
+                <img src="logo-colegio.png" alt="Logo GranCole" class="logo-img">
+                <h2>Bienvenido a GranCole</h2>
+                <p>Inicia sesión para continuar</p>
+                <form>
+                    <label for="usuario">Usuario</label>
+                    <input type="text" id="usuario" placeholder="0000000">
+                    
+                    <label for="password">Contraseña</label>
+                    <input type="password" id="password" placeholder="••••••••">
+
+                    <a href="#">¿Olvidaste tu contraseña?</a>
+                    <button type="submit">Iniciar Sesión</button>
+                </form>
+                <p style="margin-top: 10px;">¿No tienes cuenta? <a href="#">Contacta al administrador</a></p>
+            </div>
+        </div>
     </div>
-  </div>
 </body>
 </html>
